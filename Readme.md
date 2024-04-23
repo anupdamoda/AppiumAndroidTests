@@ -58,6 +58,7 @@ node appium
 the below short command helps to start the Appium server
 
 appium
+![img_1.png](img_1.png)
 
 <b>Step 4: About the Android phone and how to connect to your machine order to use the real android device to you machine — Connect the phone via USB cable, post connecting the phone you need to do below steps: </b>
 
@@ -70,6 +71,7 @@ After the above is done go to Android phone settings > Additional settings > Dev
 Post these steps please run the below command to verify your android mobile is really connected or not
 
 adb devices
+![img_2.png](img_2.png)
 
 now incase you are getting an error, most probably that's because either your phone is not in USB debugging mode or you don't have platform tools in environment variables
 
@@ -105,6 +107,7 @@ Android sdk platform tools needs to be downloaded and installed.
 https://developer.android.com/tools/releases/platform-tools
 
 post installation — the environment path needs to be setup for the ANDROID_HOME
+![img_3.png](img_3.png)
 
 <b>Step 8: Setting up ANDROID_HOME in environment variables</b>
 
@@ -114,12 +117,13 @@ post installation in above step the environment system variables the ANDROID_HOM
 <b>Step 9: Install Appium inspector to inspect the elements on the mobile app</b>
 
 Appium inspector is a tool used to provide you the best possible selectors which can help you in Appium tests.
-
+![img_4.png](img_4.png)
 
 Appium inspector starting session
+![img_5.png](img_5.png)
 
 The section which provides the best selectors
 <b>Step 10: Launching mobile application using Appium</b>
 
 After writing the simple steps of launching the mobile app and then using the Appium driver steps to navigate on the app and validating, you will be able to successfully run the Appium tests
-
+![img_6.png](img_6.png)
