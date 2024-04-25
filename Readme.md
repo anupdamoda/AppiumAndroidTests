@@ -26,6 +26,9 @@ Appium Tests
 ### Local
 * [Java 11 SDK](https://www.oracle.com/au/java/technologies/javase/jdk11-archive-downloads.html)
 * [Maven](https://maven.apache.org/download.cgi)
+* [Node](https://nodejs.org/en/download)
+* [Appium Driver](https://appium.io/docs/en/2.1/quickstart/uiauto2-driver/)
+* [Android SDK Platform Tools ](https://developer.android.com/tools/releases/platform-tools)
 
 
 ## Execution modes ## 🤖 Starting up
