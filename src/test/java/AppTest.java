@@ -32,6 +32,10 @@ public class AppTest {
         // this is the activity for e.g: launching the mobile application
         cap.setCapability("appActivity","com.reddit.launch.main.MainActivity");
 
+        //line 31 and line 33 to be replaced to the below - when automating the uber app
+        //cap.setCapability("appPackage","com.ubercab");
+        // cap.setCapability("appActivity","com.ubercab.presidio.app.core.root.RootActivity");
+
         URL url = new URL("http://127.0.0.1:4723/");
         driver = new AppiumDriver(url,cap);
         Thread.sleep(20000);
